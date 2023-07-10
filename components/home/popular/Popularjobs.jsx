@@ -13,7 +13,7 @@ const Popularjobs = () => {
   const router = useRouter();
 
   const {data, isLoading, error} = useFetch('search', {
-    query: 'Software Engineer',
+    query: 'Software Engineer Bengaluru',
     num_pages:1
 })
 const[selectedJob, setSelectedJob]= useState()
